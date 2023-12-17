@@ -1,0 +1,26 @@
+body{
+    background-color: #ff0000;
+}
+
+
+li {
+    list-style:none;
+}
+
+
+.estilos-musicales__item {
+    border-bottom: 3px solid #000000
+}
+
+.e1{
+    font-size: 24px;
+    
+}
+
+.e2{
+    font-size: 44px;
+}
+
+.e3{
+    font-size: 64px;
+}
