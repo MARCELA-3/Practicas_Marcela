@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'DangerNightPersonalUse-owdl4';
+  src: url(./DangerNightPersonalUse-owdl4.eot);
+  src: url(./DangerNightPersonalUse-owdl4.eot?#iefix) format('embedded-opentype'),
+       url(./DangerNightPersonalUse-owdl4.woff2) format('woff2'),
+       url(./DangerNightPersonalUse-owdl4.woff) format('woff'),
+       url(./DangerNightPersonalUse-owdl4.ttf) format('truetype'),
+       url(./DangerNightPersonalUse-owdl4.svg#DangerNightPersonalUse-owdl4) format('svg'),
+       url(./DangerNightPersonalUse-owdl4.otf) format('otf');
+}
