@@ -1,0 +1,39 @@
+table, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body {
+    text-align: center;
+}
+
+
+td {
+    padding: 20px;
+}
+
+thead {
+    background-color: #0000ff;
+    border-bottom: solid 5px; color: #d6dfe6;
+}
+
+.bord__1{
+    background-color: #6c5ba7;
+} 
+
+
+.bord__2 {
+    background-color: #a79cd0;
+}
+
+.bord__3{
+    background-color: #c8c2df;
+}
+
+.bord__4{
+    background-color: #f1f0f5;
+}
