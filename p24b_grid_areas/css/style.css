@@ -1,0 +1,34 @@
+
+
+.grid_container{
+    display: grid;
+    grid-template-areas:
+     "cabecera cabecera cabecera cabecera"
+     "lateral principal principal principal"
+     "pie pie pie pie";
+     height: 100vh;
+}
+
+header {
+    background-color: rgb(255, 92, 255);
+    padding: 50px;
+    grid-area: cabecera;
+}
+
+aside {
+    background-color: rgb(255, 215, 155);
+    padding: 50px;
+    grid-area: lateral;
+}
+
+main {
+    background-color: rgb (172, 172, 255);
+    padding: 50px;
+    grid-area: principal;
+}
+
+footer {
+    background-color: rgb(255, 92, 255);
+    padding: 50px;
+    grid-area: pie;
+}
