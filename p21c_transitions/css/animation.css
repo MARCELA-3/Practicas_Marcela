@@ -1,0 +1,35 @@
+
+@keyframes coolanimation {
+    0% {
+        left: 0;
+        background-color: #0000ff;
+    }
+
+    100% {
+        left: calc(100% - 180px);
+        background-color: #7fff00;
+    }
+}
+
+
+
+
+.mydiv{
+    transform: rotate(0deg);
+    background-color: #ff0000;
+    color: #FFF;
+    text-align: center;
+    font-family: impact, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 40px;
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    animation: coolanimation 2s ease-in 2s;
+    animation-iteration-count: 4;
+    animation-direction:alternate-reverse;
+    animation-play-state:running;
+    
+  
+}

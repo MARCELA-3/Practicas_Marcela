@@ -1,0 +1,21 @@
+
+body{
+    height: 100vh;
+}
+
+.mydiv {
+    background-color: blueviolet;
+    padding: 30px;
+    border: 2px solid #000;
+    cursor: pointer;
+    color: #FFF;
+    transition:all 4s ease-in-out;
+}
+
+.mydiv:hover {
+    background-color: rgb(255, 134, 91) ;
+    color:#000;
+    transition: all 4s ease-in-out;
+    transition-timing-function: ease
+
+}
