@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <form action="form_receive.php" name="usuario_wp" enctype="application/x-www-form-urlencodedjkko" method="post">
+       
+        <!--TEXT-->
+        <label for="nameInput">Introduce tu nombre</label>
+        <input type="text" id="nameInput" name="user_name" size="20" maxlength="4" required>
+
+
+        <label for="apellidosInput">Introduce tus apellidos</label>
+        <input type="text" id="apellidosInput" name="user_surname" size="20">
+
+
+        <!--CHECKBOX-->
+        <fieldset>
+            <label for="minInput">Estoy en pleno uso de mis facultades mentales</label>
+             <input type="checkbox" name="user_mindok" id="minInput" checked>
+
+             <label for="age18input">Soy mayor de edad</label>
+             <input type="checkbox" name="user_mindok" id="age18Input">
+        </fieldset>
+
+        
+        <!--RADIO BUTTONS-->
+        <fieldset>
+            <legend>Dinos tu sexo por favor</legend>
+            <label for="manInput">Hombre</label>
+            <input type="radio" name="user_sex" id="manInput">
+    
+            <label for="womanInput">Mujer</label>
+            <input type="radio" name="user_sex" id="womanInput">
+    
+            <label for="otherInput">Otro</label>
+            <input type="radio" name="user_sex" id="otherInput">
+        </fieldset>
+
+
+        <!--TEXAREA-->
+        <label for="comentsInput">Introduce tus comentarios</label>
+        <textarea name="user_coments" id="comentsInput" placeholder="escribe tus comentarios aqui"></textarea>
+
+        <!--PASSWORD-->
+        <label for="pwsInput">Introduce tu password</label>
+        <input type="password" id="pwdInput">
+
+        <!--SELECT-->
+        <label for="memberTypeInput">Selecciona el tipo de membresia</label>
+        <select name="user_level" id="memberTypeInput">
+            <option value="premium_50">Premium</option>
+            <option value="standard_5"selected>Standard</option>
+            <option value="constringer_1">Costringer</option>
+        </select>
+
+        <!--SELECT CON OPTIGROUPS-->
+        <label for="carInput">Dime que coche tienes</label>
+        <select name="user_car" id="car_Input">
+            <optgroup label="coches suecos">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="Coches españoles">
+                <option value="seiscientos">Seiscientos</option>
+                <option value="seat panda">Seat panda</option>
+            </optgroup>
+        </select>
+       
+
+        <!--BUTTON-->
+        <div style="margin-top:40px">
+        <input type="button" value="DESPLEGAR CONDICIONES">
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="resetear valores">
+        </div>
+
+
+    </form>
+
+
+</body>
+</html>
