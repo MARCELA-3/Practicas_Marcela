@@ -1,0 +1,24 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body{
+    font-size: 40px;
+}
+
+
+#link-id {
+    color: #ff0000FF;
+}
+
+
+.div__abuelo a {
+    color:#00FF00;
+} 
+
+
+.div__abuelo .p__padre a.link-class {
+    color:#00ffae; 
+} 
+
+.p__padre a{
+    color:#ff0099
+}
