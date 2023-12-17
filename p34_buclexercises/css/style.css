@@ -1,0 +1,13 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.p1{
+    border: 2px solid black;
+    margin: 2%;
+} 
+
+
+.p3{
+    border: 2px solid black;
+    margin: 2%;
+    background-color: rgb(148, 148, 218);
+}
