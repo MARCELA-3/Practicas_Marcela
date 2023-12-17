@@ -1,0 +1,12 @@
+.crono__slots{
+   display: flex;
+}
+
+span {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100px;
+    flex-basis: 100px;
+    border: 2px solid #000;
+    display: inline-block;
+}
