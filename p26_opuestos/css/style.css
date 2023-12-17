@@ -1,0 +1,42 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.solidaridad {
+    display: flex;
+    height: 100vh;
+}
+
+.solidaridad__yo,
+.solidaridad__tu {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solidaridad__yo {
+    background-color: black;
+    color: #FFF;
+}
+
+.solidaridad__responsive {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .solidaridad {
+        flex-direction: column;
+    }
+
+    .solidaridad__desktop {
+        display: none;
+    }
+
+    .solidaridad__responsive {
+        display: block;
+    }
+
+    .solidaridad__yo {
+        background-color: rgb(6, 252, 223);
+    }
+
+}
