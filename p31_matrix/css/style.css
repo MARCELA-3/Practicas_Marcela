@@ -1,0 +1,30 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{ background: #000;}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.fotoSlot{
+    flex-basis: 90%;
+    background-image: url('../img/morpheo\ .webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.selectorFotos{
+    flex-basis: 10%;
+    width:100%;
+}
+
+
+select{
+    width: 100%;
+    height: 100%;
+    background-color: darkslategrey;
+    color: #FFF;
+    font-weight: 800;
+}
